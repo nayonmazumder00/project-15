@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*? Independent */
+.headingf{
+  font-family: 'Oleo Script Swash Caps', cursive;
+}
+.heading__title-main {
+  border-bottom: 2px solid red;
+  display: inline-block;
+  margin-bottom: -5px;
+  line-height: 0;
+}
+
+.para{
+  font-family: 'Work Sans', sans-serif;
+}
+/*? Independent */
+
+/*! Top  */
+.top{
+
+    height: 100vh;
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+.top-over{
+    background-color: rgba(15, 5, 20, 0.84) ;
+    height: 100vh;
+}
+
+.top-inner{
+
+    height: 100vh;
+}
+
+
+.text-color{
+  color: #EB233C;
+}
+
+
+@media (min-width: 576px) { ... }
+
+/*! Top */
+
+/*? TOP Down */
+
+.top-down {
+  padding: 50px 1px;
+  background: white;
+  
+
+}
+.card__icon-item::before {
+  margin-left: 0;
+  font-size: 25px;
+  padding: 15px;
+  border-radius: 30px;
+  color: #EB233C;
+  border: 1px solid#eaeaea;
+}
+
+.card__text-container {
+  padding: 10px;
+}
+
+
+/*? TOP Down */
+
+
+
+/*! button */
+
+
+.button {
+  padding: 10px 30px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all ease 0.3s;
+  border: none;
+}
+
+.button:hover {
+  text-decoration: none;
+}
+
+.button--top {
+  border: 1px solid gray;
+  color: #fff;
+  background: transparent;
+}
+
+.button--red {
+  background: #EB233C;
+  color: #fff;
+}
+
+.button--top:hover {
+  background: #fff;
+  color: #000;
+  border: none;
+}
+
+.link,
+.link:hover {
+  text-decoration: none;
+}
+
+.button--red:hover {
+  background: #EB233C;
+  color: #fff;
+}
+/*! button */
+
+
+/*! manu-card */
+
+.work {
+  padding: 50px 0;
+  background-color: #d6d4d6;
+}
+
+.work-heading__title-main{
+  border-bottom: 2px solid red;
+  display: inline-block;
+}
+
+.card {
+  margin: 20px;
+}
+
+.card__img-container {
+  position: relative;
+}
+
+.card__img-overlay {
+  background: #b0d1d19a;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: all ease 0.34s;
+}
+
+.card:hover .card__img-overlay {
+  opacity: 1;
+}
+
+
+/*! manu-card */
+
+
+/*? Subscribe */
+.sub-heading {
+  padding: 10px 0 20px 0;
+}
+
+
+.sub-heading {
+  line-height: 0;
+}
+
+.subcribe {
+  background:url("./images/background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sub-over{
+  background-color: rgba(15, 5, 20, 0.84) ;
+  padding: 50px 0;
+}
+
+
+/*? Subscribe */
+
+/*! ABOUT US */
+
+.about {
+  padding: 100px 0;
+  background: inherit;
+  border: none;
+
+}
+.card__main-title .card__main-title{
+  background: inherit;
+  border: none;
+}
+
+
+
+/*! ABOUT US */
